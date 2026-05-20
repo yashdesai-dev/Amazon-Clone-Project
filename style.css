@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif ;
-    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
-.navbar{
+
+.navbar {
     height: 60px;
     background-color: #0f1111;
     color: white;
@@ -15,64 +16,79 @@
 
 
 
-.nav-logo{
+.nav-logo {
     height: 50px;
     width: 100px;
 }
-.logo{
+
+.logo {
     background-image: url('amazon_logo.png');
     height: 50px;
     width: 100%;
     background-size: cover;
+    cursor: pointer;
 }
-.border{
-    border: 2px solid transparent;
+
+.border {
+    border: 1px solid transparent;
 }
-.border:hover{
-    border: 2px solid white;
+
+.border:hover {
+    border: 1px solid white;
 }
-.address-1{
+
+.address-1 {
     color: #cccccc;
     font-size: 0.85rem;
-     margin-left: 15px;
+    margin-left: 15px;
+    cursor: pointer;
 }
-.address-2{
+
+.address-2 {
     font-size: 1rem;
     margin-left: 3px;
+    cursor: pointer;
 }
-.add-icon{
+
+.add-icon {
     display: flex;
     align-items: center;
 }
-.nav-search{
+
+.nav-search {
     display: flex;
     justify-content: space-evenly;
     width: 650px;
-    height:40px ;
-   background-color: pink;
-   border-radius: 4px;
-   
-}
-.nav-search:hover{
-    border: 2px solid orange;
+    height: 40px;
+    background-color: pink;
+    border-radius: 4px;
+
 }
 
-.nav-select{
-   background-color: #f3f3f3;
-   width: 50px;
-   text-align: center;
-    border-radius: 4px;
-    
-    border-top-left-radius: 4px
-  border-bottom-left-radious 4px;
-   border: none;
+.nav-search:hover {
+    border: 1px solid orange;
 }
-.nav-input{
+
+.nav-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px;
+
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+
+.nav-input {
     width: 791px;
     font-size: 1rem;
     border: none;
+    outline: none;
 }
-.search-ico{
+
+.search-ico {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,49 +98,99 @@
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     color: black;
+    cursor: pointer;
 }
 
-.contry-logo{
-    
-   
+.contry-logo {
+
+
     width: 21px;
-    height: 16px;
+    height: 19px;
 
     background-image: url('flag-jpg.png');
     background-size: cover;
+    cursor: pointer;
 }
-.select-contry{
+
+.select-contry {
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    cursor: pointer;
+
 }
-.cont-name{
+
+.cont-name {
     width: 18px;
     height: 15px;
+    color: #f8f8f8;
+    background-color: #0f1111;
+    border: none;
+
 }
-span{
+
+.opt {
+    background-color: #0f1111;
+    color: white;
+    border: transparent;
+}
+
+span {
     font-size: 0.8rem;
+    cursor: pointer;
 }
-.nav-second{
+
+.nav-second {
     font-size: 0.85rem;
     font-weight: 700;
+    cursor: pointer;
 }
-.nav-cart i{
+
+.nav-cart i {
     font-size: 30px;
 }
+
 .nav-cart {
     font-size: 0.85;
+    cursor: pointer;
 }
-.panel{
+
+.panel {
     display: flex;
     height: 40px;
     background-color: #222f3d;
     color: white;
-    
+
     align-items: center;
 }
-.panel-ops p{
-font-size: 0.85rem;
+
+.panel-ops p {
+    font-size: 0.85rem;
     display: inline;
     margin-left: 10px;
+    cursor: pointer;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 70vh;
+    background-image: url(img1.jpg);
+    background-size: cover;
+}
+.hero-mesasge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-size: 0.85rem;
+    height: 40px;
+    width: 97%;
+        margin-bottom: 160px;
+}
+.hero-mesasge a{
+    color: #007185;
+    text-decoration: none;
 }
