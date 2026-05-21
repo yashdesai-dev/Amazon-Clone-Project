@@ -170,7 +170,8 @@ span {
     margin-left: 10px;
     cursor: pointer;
 }
-.hero-section{
+
+.hero-section {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -179,7 +180,8 @@ span {
     background-image: url(img1.jpg);
     background-size: cover;
 }
-.hero-mesasge{
+
+.hero-mesasge {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,9 +190,132 @@ span {
     font-size: 0.85rem;
     height: 40px;
     width: 97%;
-        margin-bottom: 160px;
+    margin-bottom: 160px;
 }
-.hero-mesasge a{
+
+.hero-mesasge a {
     color: #007185;
     text-decoration: none;
+}
+
+.shoping {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #D0D3D4;
+
+}
+
+.box {
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+
+.box-img {
+    height: 300px;
+
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.box-content p {
+    color: #007185;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+.footer-pannel1 {
+    background-color: #37475A;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.footer-pannel2 {
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+
+
+}
+
+ul a {
+    text-decoration: none;
+
+    color: white;
+    display: block;
+    font-size: 0.85rem;
+    color: #DDDDDD;
+    margin-top: 20px;
+}
+
+.footer-pannel3 {
+    background-color: #222f3d;
+    height: 70px;
+    width: 100%;
+    border-top: 0.4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+
+    background-image: url('amazon_logo.png');
+    color: white;
+
+    width: 100px;
+}
+
+.footer-pannel4 {
+    background-color: #0f1111;
+
+}
+
+.footer-pannel4 a {
+    color:#222f3d;
+
+    /* display: flex;
+justify-content: center;
+align-items: center; */
+}
+
+.pages {
+    /* margin-top: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.copyright {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pages a{
+    color: white;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.copyright a{
+    color: white;
+text-decoration: none;
 }
